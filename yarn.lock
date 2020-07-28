@@ -1571,10 +1571,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@slynch-a11y/gatsby-theme-a11y-blog@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@slynch-a11y/gatsby-theme-a11y-blog/-/gatsby-theme-a11y-blog-0.0.1.tgz#03bd8ae50cde5d71ef8412d11331088ca86e7b72"
-  integrity sha512-XwjoVA1LIyZEaBM8BwJvKgvjJMZhNHvJTiCV1T94x4RX8ac44/o6yemB/zAub3poaeSD6xrCZvlKuxzT+IWw7g==
+"@slynch-a11y/gatsby-theme-a11y-blog@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@slynch-a11y/gatsby-theme-a11y-blog/-/gatsby-theme-a11y-blog-0.0.2.tgz#20a0e1aaefd0187e79eb5d76f9979f996b3a6b8d"
+  integrity sha512-4jnaRXUHcfV8c7Ay1bcBkRWCQo294Xje5us5sLni4gkr1KYkOEb9IWqnzSjzxPHoANuk3lBYQqm1B+BNHPfs8w==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.30"
     "@fortawesome/free-brands-svg-icons" "^5.14.0"
@@ -2243,9 +2243,9 @@ ajv-errors@^1.0.0:
   integrity sha512-DCRfO/4nQ+89p/RK43i8Ezd41EqdGIU4ld7nGF8OQ14oc/we5rEntLCUa7+jrn3nn83BosfwZA0wb4pon2o8iQ==
 
 ajv-keywords@^3.1.0, ajv-keywords@^3.4.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.1.tgz#b83ca89c5d42d69031f424cad49aada0236c6957"
-  integrity sha512-KWcq3xN8fDjSB+IMoh2VaXVhRI0BBGxoYp3rx7Pkb6z0cFjYR9Q9l4yZqqals0/zsioCmocC5H6UvsGD4MoIBA==
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
+  integrity sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
 
 ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.2, ajv@^6.5.5:
   version "6.12.3"
