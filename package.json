@@ -5,9 +5,9 @@
   "repository": "https://github.com/slynch-a11y/sarah_e_lynch.git",
   "license": "MIT",
   "dependencies": {
-    "@slynch-a11y/gatsby-theme-a11y-blog": "0.0.5",
+    "@slynch-a11y/gatsby-theme-a11y-blog": "0.0.7",
     "gatsby": "^2.31.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
