@@ -5,6 +5,12 @@ featuredImageAlt: "two cats. read description below."
 featuredImageCaption: "Two cats sitting next to each other.  One is wearing a bowtie and the other is wearing a tie."
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Sed tempus urna et pharetra pharetra massa massa. Vitae et leo duis ut diam quam nulla porttitor massa. 
+Hello!  This site is obviously under construction.  I'm an accessibility engineer at Yale University.  I have been doing digital accessibility full time for two years now.  I'm still a newbie and constantly learning.  I am going to start blogging to maintain my IAAP (International Association of Accessibility Professionals) CPWA (Certified Professional in Web Accessibility) certification.  If you are an accessibility expert and find an error in any of my articles, please let me know. I would love feedback!
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada. Eleifend mi in nulla posuere sollicitudin. Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Tempor nec feugiat nisl pretium fusce id velit.
+Besides being an accessibility engineer, I’m also a mom and a Girl Scout leader.  On the weekends, I am usually hiking or planning my next Girl Scout meeting (after cleaning and grocery shopping).  
+
+This site is using a Gatsby theme that I created (still a work in progress).  
+
+Stay tuned!
+ 
+
