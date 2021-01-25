@@ -7,6 +7,7 @@
   "dependencies": {
     "@slynch-a11y/gatsby-theme-a11y-blog": "0.0.12",
     "gatsby": "^2.31.1",
+    "gatsby-plugin-google-gtag": "^2.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

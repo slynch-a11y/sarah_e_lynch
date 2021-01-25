@@ -20,5 +20,13 @@ module.exports = {
           markdownPath: "src/markdown",
         },
       },
+      {
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+          trackingIds: [
+            "G-6KHCS4XV2D", 
+          ],
+        },
+      },
     ],
   };
