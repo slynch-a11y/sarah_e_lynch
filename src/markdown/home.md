@@ -9,7 +9,7 @@ Hello!  This site is under construction.  I am an accessibility engineer in high
 
 Besides being an accessibility engineer, I’m also a mom and a Girl Scout leader.  On the weekends, I am usually hiking or planning my next Girl Scout meeting (after cleaning and grocery shopping, that is).  
 
-This site is using an [accessible Gatsby theme for blogging](https://github.com/slynch-a11y/gatsby-theme-a11y-blog) that I created for fun.  
+This site is using my [accessible Gatsby theme for blogging](https://github.com/slynch-a11y/gatsby-theme-a11y-blog).  
 
 
  
