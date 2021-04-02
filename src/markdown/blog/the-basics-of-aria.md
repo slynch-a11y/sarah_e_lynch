@@ -7,6 +7,8 @@ featuredImage:
 featuredImageAlt: 
 ---
 
+ARIA can be a source of confusion for many.  I think it's very important for developers to understand the basics of ARIA and where to go to find more information.  Here's my attempt at making ARIA easy to understand and implement.
+
 ## About ARIA
 * ARIA is short for WAI-ARIA  which stands for Web Accessibility Initiative - Accessible Rich Internet Applications.
 * WAI-ARIA is a specification that defines a way to make applications more accessible to people with disabilities.
@@ -120,7 +122,7 @@ There are two very important use cases of live regions.
 
 ## Summary
 
-It is important to keep in mind that ARIA can add/modify (and overrule) semantics, but it cannot modify expected behavior (not without a lot of extra code)!  Developers should always use native HTML5 elements or attributes if they can.  Only include ARIA attributes used according to the ARIA specification and when necessary.  Utilize role=“status” for status updates and role=“alert” for error messages.  Lastly, follow the [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.2/) when creating custom components. 
+It is important to keep in mind that ARIA can add/modify (and override) semantics, but it cannot modify expected behavior (not without a lot of extra code)!  Developers should always use native HTML5 elements or attributes if they can.  Only include ARIA attributes used according to the ARIA specification and when necessary.  Utilize role=“status” for status updates and role=“alert” for error messages.  Lastly, follow the [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.2/) when creating custom components. 
 
 ARIA can be very powerful.  With great power comes great responsibility.  Always check the [ARIA specification](https://www.w3.org/TR/wai-aria-1.2/) when including ARIA in your code.
 
