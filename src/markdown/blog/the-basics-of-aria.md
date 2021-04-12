@@ -67,7 +67,9 @@ There is no notification that this element’s role is a checkbox and no notific
 In our checkbox example, we could add ARIA attributes to give meaning to the element.
 Sprinkle in some ARIA:
 ```
-<div role="checkbox" aria-checked="true" class="checkbox checked">I agree to the terms and conditions</div>
+<div role="checkbox" aria-checked="true" class="checkbox checked">
+I agree to the terms and conditions
+</div>
 ```
 Role attributes are ARIA.  So by giving this ```<div>``` a role of checkbox and an aria-checked attribute of true, we now have the same meaning as if using semantic HTML.  
 

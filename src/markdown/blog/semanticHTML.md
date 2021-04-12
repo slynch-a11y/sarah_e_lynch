@@ -14,8 +14,8 @@ Semantic HTML is just plain old HTML.  Well, everything except ```<div>```’s a
 
 ## Why is Semantic HTML important?
 ```
-<div class=”heading-one”>heading one</div>
-<div class=”heading-two”>heading two</div>
+<div class="heading-one">heading one</div>
+<div class="heading-two">heading two</div>
 ```
 You can style a bunch of ```<div>```’s to look like headings (like in the code sample above), but that won’t make them actual headings.  A visual user would be able to understand that they are headings.  A screen reader would just read the text, but give no hint that the text represents a heading.
 Since the meaning is in the code (not the visual presentation of the code), it is not how it looks on the screen that matters.  It is the code that matters.  
