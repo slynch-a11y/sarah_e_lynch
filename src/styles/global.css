@@ -38,4 +38,6 @@
     transform: translateY(-65%) translateX(-50%) rotate(45deg);
   }
   
-  
+  figcaption {
+    margin-top: 20px;
+  }
