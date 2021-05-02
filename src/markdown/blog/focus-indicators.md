@@ -59,16 +59,16 @@ This is where things get a little complicated.  There is a calculation you can u
 1. The first calculation is “the area of a 1 CSS pixel thick perimeter of the unfocused component”.  This means that the focus indicator area must be at least 1 x the perimeter of the unfocused control.  For example:
    * If your focus indicator is an outline around the focusable element, it is sufficiently large enough. 
 <figure>
-    <img src="/images/focus_indicators/1px-outline.png" alt="A control using a 1px outline around the perimeter." />
+    <img src="/images/focus_indicators/1px-outline.png" alt="A control using a 1px outline around the perimeter to indicate its focused state." />
     <figcaption>The focused state is indicated by a 1px outline around the perimeter of the focusable element.</figcaption>
 </figure> 
-   * If your focus indicator is slightly smaller than the focusable element, it may be sufficiently large enough if it has an extra pixel or two of width (you’ll need to calculate).  
+   * If your focus indicator is slightly smaller than the focusable element, it may be sufficiently large enough if it has an extra pixel or so of width (you’ll need to calculate).  
    * Just changing the background color is sufficient (as the contrasting area is sufficiently large enough).
-   * Be aware of responsive design and if that control changes size at different viewports (you’ll need to calculate if you’re not using a proportionally sized indicator).
+   * Be aware of responsive design and if that control changes size at different viewports. You’ll need to calculate if you’re not using a proportionally sized indicator.
    * Using a dotted line may not be sufficient as it is using half the number of pixels as a solid line (you’ll need to test in different browsers and calculate).
 2. This requirement includes a second calculation: "the area of a 4 CSS pixel thick line along the shortest side of a minimum bounding box of the unfocused component, and no thinner than 2 CSS pixels".  In other words, the focus indicator area must be at least 4 x the shortest side of the unfocused control (and no thinner than 2px wide).  This calculation is meant for focusable controls that are rectangular.  Any non-rectangular controls should use the 1 CSS pixel perimeter calculation as a guide.
 <figure>
-    <img src="/images/focus_indicators/short-side.png" alt="A control using a 4px wide left border (its shortest side)" />
+    <img src="/images/focus_indicators/short-side.png" alt="A control using a 4px wide left border (its shortest side) to indicate its focused state." />
     <figcaption>The focused state is indicated by a 4px thick line along the shortest side of the focusable element.</figcaption>
 </figure>
 
@@ -79,17 +79,17 @@ There are two options to pass this requirement.
 
 1. “The contrasting area also has a contrast ratio of least 3:1 against adjacent colors in the focused component”:
 <figure>
-    <img src="/images/focus_indicators/1px-outline.png" alt="A control using a 1px outline around the perimeter." />
+    <img src="/images/focus_indicators/1px-outline.png" alt="A control using a 1px outline around the perimeter indicating its focused state." />
     <figcaption>The focused state is indicated by a 1px outline around the perimeter of the focusable element.  Because it is using an offset, the outline is only adjacent to the white background and therefore passes the color contrast requirement.</figcaption>
 </figure> 
 
 2. “or the contrasting area has a thickness of at least 2 CSS pixels”:
 <figure>
-    <img src="/images/focus_indicators/2px-thick-border.png" alt="A control using a 2px thick border to indicate its focus state." />
-    <figcaption>This element is using a 2px thick border to indicate its focus state.</figcaption>
+    <img src="/images/focus_indicators/2px-thick-border.png" alt="A control with a green background using a 2px thick green border to indicate its focus state." />
+    <figcaption>This element is using a 2px thick green border to indicate its focus state.</figcaption>
 </figure> 
 
-I don’t like the second part of this requirement - that it’s okay to not have adjacent contrasting colors if the thickness is at least 2px. In the above example, I have an outline of 2px around the focused state.  It’s very hard to tell the difference between the two states.  While there was a sufficient change in contrast from the white to the green, the adjacent contrast does not have sufficient contrast (the focus indicator is using the same green color as the button’s background). According to this requirement, the focus indicator can be the same color as an adjacent color. However, this makes the focus indicator almost invisible.  The 2px thickness doesn’t help at all.  
+I don’t like the second part of this requirement that says it’s okay to not have adjacent contrasting colors if the thickness is at least 2px. In the above example, I have an outline of 2px around the focused state.  It’s very hard to tell the difference between the two states.  While there was a sufficient change in contrast from the white around the control to the 2px green outline around the control in its focused state, the adjacent contrast is not sufficient. A focus indicator with poor adjacent color contrast could be almost invisible.  The 2px thickness doesn’t help at all.  
 
 Remember, these guidelines are the bare minimum that should be followed.  It is best practice to go above and beyond and make that focus indicator stand out. 
 
