@@ -56,17 +56,17 @@ For example:
 
 ### Minimum Area Requirement
 This is where things get a little complicated.  There is a calculation you can use to determine how big your focus indicator should be.  However, “if you need to use complex mathematics to work out if a focus indicator is large enough, it is probably a sign that you should use a larger and proportional indicator that will provide a more visible indicator” (from the [Understanding Success Criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html)).  I like to summarize the minimum area like this: 
-* The first calculation is “the area of a 1 CSS pixel thick perimeter of the unfocused component”.
-* If your focus indicator is an outline around the focusable element, it is sufficiently large enough. 
+1. The first calculation is “the area of a 1 CSS pixel thick perimeter of the unfocused component”.  This means that the focus indicator area must be at least 1 x the perimeter of the unfocused control.  For example:
+   * If your focus indicator is an outline around the focusable element, it is sufficiently large enough. 
 <figure>
     <img src="/images/focus_indicators/1px-outline.png" alt="A control using a 1px outline around the perimeter." />
     <figcaption>The focused state is indicated by a 1px outline around the perimeter of the focusable element.</figcaption>
 </figure> 
-* If your focus indicator is slightly smaller than the focusable element, it may be sufficiently large enough if it has an extra pixel or two of width (you’ll need to calculate).  
-* Just changing the background color is sufficient (as the contrasting area is sufficiently large enough).
-* Be aware of responsive design and if that control changes size at different viewports (you’ll need to calculate if you’re not using a proportionally sized indicator).
-* Using a dotted line may not be sufficient as it is using half the number of pixels as a solid line (you’ll need to test in different browsers and calculate).
-* This requirement includes a second calculation: "the area of a 4 CSS pixel thick line along the shortest side of a minimum bounding box of the unfocused component, and no thinner than 2 CSS pixels".  This calculation is meant for focusable elements that are rectangular.  Any non-rectangular controls should use the 1 CSS pixel perimeter calculation as a guide.
+   * If your focus indicator is slightly smaller than the focusable element, it may be sufficiently large enough if it has an extra pixel or two of width (you’ll need to calculate).  
+   * Just changing the background color is sufficient (as the contrasting area is sufficiently large enough).
+   * Be aware of responsive design and if that control changes size at different viewports (you’ll need to calculate if you’re not using a proportionally sized indicator).
+   * Using a dotted line may not be sufficient as it is using half the number of pixels as a solid line (you’ll need to test in different browsers and calculate).
+2. This requirement includes a second calculation: "the area of a 4 CSS pixel thick line along the shortest side of a minimum bounding box of the unfocused component, and no thinner than 2 CSS pixels".  In other words, the focus indicator area must be at least 4 x the shortest side of the unfocused control (and no thinner than 2px wide).  This calculation is meant for focusable controls that are rectangular.  Any non-rectangular controls should use the 1 CSS pixel perimeter calculation as a guide.
 <figure>
     <img src="/images/focus_indicators/short-side.png" alt="A control using a 4px wide left border (its shortest side)" />
     <figcaption>The focused state is indicated by a 4px thick line along the shortest side of the focusable element.</figcaption>
@@ -103,7 +103,7 @@ Success criterion 2.4.12 Focus Appearance (Enhanced) states that all of the foll
 * Minimum area: The contrasting area is at least double the area of a 1 CSS pixel perimeter of the unfocused component;
 * Not obscured: No part of the focus indicator is hidden by author-created content.
 
-This Success Criterion expands the minimum area to 2px around the perimeter.  The change in color contrast between the focused and unfocused state must be at least 4.5:1.  Finally, no part of the focus indicator should be obscured by other content on the page.
+This Success Criterion expands the minimum area to at least double the area of a 1px perimeter.  The change in color contrast between the focused and unfocused state must be at least 4.5:1.  Finally, no part of the focus indicator should be obscured by other content on the page.
 
 ## Common CSS Properties to Style Focus
 
@@ -115,3 +115,9 @@ Use the CSS outline-offset property if you can.  It makes a big impact on the vi
 
 ## Summary
 I’m glad to know that the next version of WCAG is moving focus indicators into a higher priority and giving more direction on how they should be styled, but we need to think beyond WCAG.  To be more inclusive, we need to follow best practices and design our focus indicators to stand out.  It is also best practice to design our focus indicators consistently on the page and to make them intuitive.  Using affordances we already have, users will know that they are viewing a focus indicator.  Finally, if you want to make sure your design works, user test with people with disabilities.  
+
+## Resources
+* [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+* [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
+* [Understanding Success Criterion 2.4.11: Focus Appearance (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html)
+* [Understanding Success Criterion 2.4.12: Focus Appearance (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-enhanced.html)
