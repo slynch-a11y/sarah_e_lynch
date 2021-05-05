@@ -1,6 +1,6 @@
 ---
 title: The Basics of ARIA
-date: '2021-03-31'
+date: '2021-03-28'
 description: 'the basics of aria'
 tags: ARIA
 featuredImage: 

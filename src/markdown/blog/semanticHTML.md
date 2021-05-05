@@ -1,6 +1,6 @@
 ---
 title: Semantic HTML
-date: '2020-01-21'
+date: '2021-02-21'
 description: 'this is my first blog post'
 tags: semantic HTML
 featuredImage: 

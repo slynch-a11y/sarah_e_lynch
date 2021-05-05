@@ -5,10 +5,10 @@
   "repository": "https://github.com/slynch-a11y/sarah_e_lynch.git",
   "license": "MIT",
   "dependencies": {
-    "@slynch-a11y/gatsby-theme-a11y-blog": "^0.0.21",
-    "gatsby": "^2.31.1",
-    "gatsby-plugin-google-gtag": "^2.7.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "@slynch-a11y/gatsby-theme-a11y-blog": "^0.0.24",
+    "gatsby": "^3.4.1",
+    "gatsby-plugin-google-gtag": "^3.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
