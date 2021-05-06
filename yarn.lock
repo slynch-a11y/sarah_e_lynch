@@ -1844,10 +1844,10 @@
     "escape-string-regexp" "^2.0.0"
     "lodash.deburr" "^4.1.0"
 
-"@slynch-a11y/gatsby-theme-a11y-blog@^0.0.24":
-  "integrity" "sha512-Gr+HDhR5cSqmMeyCsWA2fXqF5voEUbCEMca13zTd03k7ePTokHyPCVJBEUDjajaWnA3fSfd6l9pvs+fLT1/d2g=="
-  "resolved" "https://registry.npmjs.org/@slynch-a11y/gatsby-theme-a11y-blog/-/gatsby-theme-a11y-blog-0.0.24.tgz"
-  "version" "0.0.24"
+"@slynch-a11y/gatsby-theme-a11y-blog@^0.0.25":
+  "integrity" "sha512-hv7TlpA3EJX8eakkO+nNph2bqBgruhTnFnulwMG4TJXgN1RfQyKoWh2AzDVEujuwEj10PSiNiXXJKtnVEKcF4g=="
+  "resolved" "https://registry.npmjs.org/@slynch-a11y/gatsby-theme-a11y-blog/-/gatsby-theme-a11y-blog-0.0.25.tgz"
+  "version" "0.0.25"
   dependencies:
     "@fontsource/poppins" "^4.2.2"
     "@fontsource/roboto" "^4.2.3"
