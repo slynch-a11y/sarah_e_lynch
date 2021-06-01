@@ -32,7 +32,7 @@ The rules that test color contrast issues are known not to work with the [JSDOM]
 
 ## Testing iFrames
 
-It is important to keep in mind that the axe-core API is capable of testing within iframes.  However, setting up tests inside of iframes can be a challenge sometimes.  The [Axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/) will automatically check iframes, as will [@axe-core/webdriverjs](https://www.npmjs.com/package/@axe-core/webdriverjs) and the [axe CLI](https://www.npmjs.com/package/@axe-core/cli).
+It is important to keep in mind that the axe-core API is capable of testing within iframes.  However, this takes additional setup as the axe script will need to be injected into each iframe.  There are products available that take care of this set up for you.  The [Axe DevTools browser extension](https://www.deque.com/axe/browser-extensions/) will automatically check iframes, as will [@axe-core/webdriverjs](https://www.npmjs.com/package/@axe-core/webdriverjs) and the [axe CLI](https://www.npmjs.com/package/@axe-core/cli).
 
 ## The Axe-Core API
 
