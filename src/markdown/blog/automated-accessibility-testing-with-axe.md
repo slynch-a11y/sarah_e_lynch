@@ -16,7 +16,7 @@ Deque recently published that [automated testing identified 57% of digital acces
 
 ## Axe-Core
 
-The [axe-core API](https://github.com/dequelabs/axe-core) is a powerful tool for testing HTML-based UIs (user interfaces).  Axe-core is the leader in accessibility testing and is found in a [large number of accessibility projects](https://github.com/dequelabs/axe-core/blob/develop/doc/projects.md).  Some popular Deque products with the axe-core testing engine include the [Axe DevTools browser extension (for Chrome, Firefox, and Edge)](https://www.deque.com/axe/browser-extensions/), testing framework integrations such as with [WebdriverJS](https://www.npmjs.com/package/@axe-core/webdriverjs), and a simple to use CLI (command line interface) known as [axe-core CLI](https://www.npmjs.com/package/@axe-core/cli).  Community projects include [Chrome DevTool’s Lighthouse](https://github.com/GoogleChrome/lighthouse), [Microsoft’s Accessibility Insights for Web](https://accessibilityinsights.io/), [Storybook-addon-a11y](https://github.com/storybookjs/storybook/tree/master/addons/a11y), and many testing framework integrations, such as [jest-axe](https://github.com/nickcolley/jest-axe) and [cypress-axe](https://github.com/component-driven/cypress-axe).  The axe-core script can be used alone, but it’s most effective when used within the testing framework and Continuous Integration pipeline you have (or should have) already established. 
+The [axe-core API](https://github.com/dequelabs/axe-core) is a powerful tool for testing HTML-based UIs (user interfaces).  Axe-core is found in a [large number of accessibility projects](https://github.com/dequelabs/axe-core/blob/develop/doc/projects.md).  Some popular Deque products with the axe-core testing engine include the [Axe DevTools browser extension (for Chrome, Firefox, and Edge)](https://www.deque.com/axe/browser-extensions/), testing framework integrations such as with [WebdriverJS](https://www.npmjs.com/package/@axe-core/webdriverjs), and a simple to use CLI (command line interface) known as [axe-core CLI](https://www.npmjs.com/package/@axe-core/cli).  Community projects include [Chrome DevTool’s Lighthouse](https://github.com/GoogleChrome/lighthouse), [Microsoft’s Accessibility Insights for Web](https://accessibilityinsights.io/), [Storybook-addon-a11y](https://github.com/storybookjs/storybook/tree/master/addons/a11y), and many testing framework integrations, such as [jest-axe](https://github.com/nickcolley/jest-axe) and [cypress-axe](https://github.com/component-driven/cypress-axe).  The axe-core script can be used alone, but it’s most effective when used within the testing framework and Continuous Integration pipeline you have (or should have) already established. 
 
 ## Test the UI (All the UI)
 
@@ -44,12 +44,12 @@ By default, the axe script will run on the full document, checking page-level ru
 
 ### Options Parameter
 
-The [options parameter](https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#options-parameter) can be used to configure how axe.run will operate.  This is where you can include or exclude rules.
+The [options parameter](https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#options-parameter) can be used to configure how ```axe.run``` will operate.  This is where you can include or exclude rules. There are other options that can be set within this object and if you need more configuration, there is the more powerful [```axe.configure```](https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#api-name-axeconfigure) method.
 
 ### The Callback Function
 
 The [callback function](https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#callback-parameter)
-can be used to modify the results that get returned.  
+will run after ```axe.run``` is complete.  It takes two parameters: an error and a results object.  
 
 ### Results
 
