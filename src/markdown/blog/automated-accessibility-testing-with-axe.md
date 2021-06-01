@@ -12,7 +12,7 @@ As developers, we know how important it is to write tests to avoid introducing b
 ## Accessibility Issues
 
 Not all accessibility issues can be found with automated testing.  There is a debate about the percentage of accessibility issues that can be found via automated testing, but it’s certainly not 100% and depending on the application and testing tools, the percentage can vary quite a bit.  Gov.uk ran a study and found that [automated testing tools caught 30-40% of accessibility issues](https://accessibility.blog.gov.uk/2017/02/24/what-we-found-when-we-tested-tools-on-the-worlds-least-accessible-webpage/).
-Deque recently published that [automated testing identified 57% of digital accessibility issues](https://www.deque.com/blog/automated-testing-study-identifies-57-percent-of-digital-accessibility-issues/).  This means that manual testing must also be done.  However, writing unit/integration/end-to-end tests, using packages like Deque’s axe-core, and installing linters in your IDE (integrated development environment) can all drastically reduce the number of accessibility issues that get sent to production.
+Deque (the company that works on axe-core) recently published that [automated testing identified 57% of digital accessibility issues](https://www.deque.com/blog/automated-testing-study-identifies-57-percent-of-digital-accessibility-issues/).  This means that manual testing must also be done.  However, writing unit/integration/end-to-end tests, using packages like Deque’s axe-core, and installing linters in your IDE (integrated development environment) can all drastically reduce the number of accessibility issues that get sent to production.
 
 ## Axe-Core
 
