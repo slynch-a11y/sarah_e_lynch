@@ -43,7 +43,8 @@ Spoken UI:
 
 "I agree to the terms and conditions, checkbox, checked"
 
-<span role="img" aria-label="happy face with heart eyes" style='font-size:100px;'>&#128525;</span>
+
+<span role="img" aria-label="happy face with heart eyes" style='font-size:6rem; line-height:6rem'>&#128525;</span>
 
 However, if we did not use semantic HTML and implemented the same visual UI with a styled ```<div>``` such as:
 
@@ -62,7 +63,7 @@ The visual UI and spoken UI would not match.
 
 There is no notification that this element’s role is a checkbox and no notification of the state of the checkbox (checked or not checked). 
 
-<span role="img" aria-label="sad face" style='font-size:100px;'>&#128543;</span>
+<span role="img" aria-label="sad face" style='font-size:6rem; line-height:6rem'>&#128543;</span>
 
 In our checkbox example, we could add ARIA attributes to give meaning to the element.
 Sprinkle in some ARIA:
